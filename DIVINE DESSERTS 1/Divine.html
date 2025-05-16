@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divine Desserts</title>
+<!-- font awesome limk-->
+    <script src="https://kit.fontawesome.com/12f9d9693b.js" crossorigin="anonymous"></script>
+<!-- custom css file link -->
+    <link rel="stylesheet" href="divine.css">
+    
+</head>
+<body>
+
+<!-- header section start -->
+<header class="header">
+    <a href="#" class="logo"> <i class="fa-solid fa-basket-shopping"></i> 𝓓𝓲𝓿𝓲𝓷𝓮 𝓓𝓮𝓼𝓼𝓮𝓻𝓽𝓼 </a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#products">Shop</a>
+        <a href="#about">About</a>
+        <a href="#review">Review</a>
+        <a href="#blogs">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="icons">
+        <div id="menu-btn" class="fa-solid fa-bars"></div>
+        <div id="search-btn" class="fa-solid fa-magnifying-glass"></div>
+        <div id="cart-btn" class="fa-solid fa-cart-plus"></div>
+        <a href="login page/login.html"><div id="login-btn" class="fa-solid fa-circle-user"></div></a>
+    </div>
+
+<!-- search-form -->
+
+    <div class="search-form">
+            <input type="search" name="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fa-solid fa-magnifying-glass"></label>
+        </div>
+
+<!-- cart item -->
+
+<div class="cart-items-container">
+<!-- first-item -->
+            <div class="cart-item">
+                <span class="fa-solid fa-xmark"></span>
+                <img src="images 2/black-forest-cake-.jpg" alt="">
+                <div class="content">
+                    <h3>Black-Forest</h3>
+                    <div class="price">Rs.360/-</div>
+                </div>
+            </div>
+<!-- second-item -->
+            <div class="cart-item">
+                <span class="fa-solid fa-xmark"></span>
+                <img src="images 2/Chocolate cake.jpg" alt="">
+                <div class="content">
+                    <h3>Chocolate Cake</h3>
+                    <div class="price">Rs.360/-</div>
+                </div>
+            </div>
+<!--third-item -->
+            <div class="cart-item">
+                <span class="fa-solid fa-xmark"></span>
+                <img src="images 2/lemon-drizzle-cake-3.jpg" alt="">
+                <div class="content">
+                    <h3>Lemon-Drizzle</h3>
+                    <div class="price">Rs.360/-</div>
+                </div>
+            </div>
+<!--forth-item -->
+            <div class="cart-item">
+                <span class="fa-solid fa-xmark"></span>
+                <img src="images 2/red velvet.jpg" alt="">
+                <div class="content">
+                    <h3>Red Velvet</h3>
+                    <div class="price">Rs.360/-</div>
+                </div>
+            </div>
+            <a href="" class="btn">Order Now</a>
+        </div>
+</header>
+<!-- home section start -->
+<section class="home" id="home">
+    <div class="slides-container">
+<!-- first item    -->
+        <div class="slide active">
+            <div class="content">
+                <span>Have a Cake-A-Licious</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img src="Image/background_1-removebg-preview.png" alt="">
+            </div>
+        </div>
+<!-- secont item -->
+        <div class="slide">
+            <div class="content">
+                <span>Have a Cake-A-Licious</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img src="Image/image_2-removebg-preview.png" alt="">
+            </div>
+        </div>
+<!-- third item -->
+        <div class="slide">
+            <div class="content">
+                <span>Have a Cake-A-Licious</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img src="Image/image_3-removebg-preview.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+</section>
+
+<!-- banner section -->
+<section class="banner-container">
+<!-- fisrt banner -->
+    <div class="banner">
+        <img src="Image/image 1.jpg" alt="">
+        <div class="content">
+        <span>Limited Sales</span>
+        <h3>Upto 50% Off</h3>
+        <a href="#" class="btn">Shop Now</a>
+        </div>
+    </div>
+<!-- second bannner -->
+    <div class="banner">
+        <img src="Image/image 2.jpg" alt="">
+        <div class="content">
+        <span>Limited Sales</span>
+        <h3>Upto 50% Off</h3>
+        <a href="#" class="btn">Shop Now</a>
+        </div>
+    </div>
+<!-- third banner -->
+    <div class="banner">
+        <img src="Image/image 3.1.jpg" alt="">
+        <div class="content">
+        <span>Limited Sales</span>
+        <h3>Upto 50% Off</h3>
+        <a href="#" class="btn">Shop Now</a>
+        </div>
+    </div>
+</section>
+
+<!-- category start -->
+<div class="heading">
+    <h1>Our Shop</h1>
+</div>
+<section class="category">
+    <h1 class="title"> Our <span>Category</span> <a href="#"> view all >></a></h1>
+
+    <div class="box-container">
+<!-- first item -->
+        <a href="#" class="box">
+            <img src="Image/category fresh cupcake.jpg" alt="">
+            <h3>Fresh Cupcake</h3>
+        </a>
+<!-- second item -->
+        <a href="#" class="box">
+            <img src="Image/category cookies.jpg" alt="">
+            <h3>Cookies</h3>
+        </a>
+<!-- third item -->
+        <a href="#" class="box">
+            <img src="Image/category wheat.jpg" alt="">
+            <h3>Wheat</h3>
+        </a>
+<!-- forth item -->
+        <a href="#" class="box">
+            <img src="Image/category dark chocolate.jpg" alt="">
+            <h3>Dark Chocolate</h3>
+        </a>
+<!-- fifth item -->
+        <a href="#" class="box">
+            <img src="Image/category brown bread.jpg" alt="">
+            <h3>Brown Bread</h3>
+        </a>
+    </div>
+
+</section>
+
+<!-- product section -->
+<section class="products" id="products">
+    <h1 class="title"> Our <span>Products</span> <a href="#"> view all >></a></h1>
+
+    <div class="box-container">
+<!-- first product -->
+        <div class="box">
+            <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="images 2/carrot-cake-layers.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Carrot Cake</h3>
+            <div class="price">Rs.560/-</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+        </div>
+<!-- second porduct -->
+
+
+        <div class="box">
+            <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="images 2/Lemon ricotta cheesecake 1.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Lemon-Ricotta Cheesecake</h3>
+            <div class="price">Rs.1200/-</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+        </div>
+<!-- third product -->
+
+
+        <div class="box">
+            <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="images 2/Vanilla-SPONGE-CAKE-S-05.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Vanilla-Sponge Cake</h3>
+            <div class="price">Rs.399/-</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+        </div>
+<!-- forth product -->
+
+
+         <div class="box">
+            <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="images 2/Mint-magic cookie-bars.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Mint-Magic Cookie</h3>
+            <div class="price">Rs.410/-</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+        </div>
+<!-- fifth -->
+
+
+         <div class="box">
+            <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="images 2/Mocha- morsel Chocolate-Chip-Cookies-.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Mocha-Morsel Chocolate Cookie</h3>
+            <div class="price">Rs.780/-</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+        </div>
+<!-- sixth -->
+
+
+        <div class="box">
+            <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="Image/dark chcolate 1.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Cadbury Bournville Dark-Chocolate</h3>
+            <div class="price">Rs.120/-</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+        </div>
+<!-- seventh -->
+
+
+  <div class="box">
+            <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="Image/dark chcolate 2.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Amul Dark Chocolate</h3>
+            <div class="price">Rs.185/-</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+        </div>
+
+
+
+<!-- eight -->
+        <div class="box">
+            <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="Image/cup cake 1.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Velvet-Bite Cupcake</h3>
+            <div class="price">Rs.120/-</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+        </div>
+
+<!-- ninth item -->
+        <div class="box">
+            <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="Image/cup cake 3.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Choco-Charm Cupcake</h3>
+            <div class="price">Rs.120/-</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+        </div>
+
+<!-- tenth item -->
+        <div class="box">
+            <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <div class="img">
+            <img src="images 2/vegan-blueberry-cheesecake-4.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>Vegan-Blueberry Cheesecake</h3>
+            <div class="price">Rs.820/-</div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+        </div>
+
+
+</div>
+</section>
+
+<!-- aboout section -->
+<div class="heading">
+    <h1>About us</h1>
+</div>
+
+<section class="about" id="about">
+    <div class="img">
+        <img src="Image/image 1.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <span>Welcome to our products</span>
+        <h3>Cake-A-Licious products</h3>
+        <p>At Divine Desserts, we believe that every bite should be an unforgettable experience. What sets us apart is our commitment to quality, using only the finest ingredients to create desserts that are as beautiful as they are delicious.</p>
+        <p>From classic flavors to innovative creations, we blend tradition with creativity to craft treats that are truly divine.</p>
+        <p>Each dessert is made with love, care, and a touch of magic, ensuring that every moment spent with us is a sweet indulgence.</p>
+        <a href="#" class="btn">read more</a>
+    </div>
+</section>
+
+
+<!-- gallery section -->
+
+<section class="gallery">
+
+    <h1 class="title"> Our <span>gallery</span> <a href="#"> view all >></a></h1>
+    <div class="box-container">
+
+<!-- first image -->
+
+        <div class="box">
+            <img src="Image/gallery 1.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+<!-- second image -->
+
+        <div class="box">
+            <img src="Image/gallery 2.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+<!-- third image -->
+
+        <div class="box">
+            <img src="Image/gallery 3.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+<!-- forth image -->
+
+        <div class="box">
+            <img src="Image/gallery 5.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+<!-- fifth image -->
+
+        <div class="box">
+            <img src="Image/gallery 6.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+<!-- sixth image -->
+
+        <div class="box">
+            <img src="Image/gallery 7.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+<!-- seventh image -->
+
+        <div class="box">
+            <img src="Image/gallery 8.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+
+<!-- eighth image -->
+
+        <div class="box">
+            <img src="Image/gallery 9.jpg" alt="">
+            <div class="icons">
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share-alt"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="heading">
+    <h1>Customer's review</h1>
+</div>
+
+<section class="info-container">
+
+
+    <div class="info">
+        <img src="Image/fast delivery.png" alt="">
+        <div class="content">
+            <h3>Fast Delivery</h3>
+            <span>within 30 minutes</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img src="Image/24 hrs.png" alt="">
+        <div class="content">
+            <h3>24 / 7 available</h3>
+            <span>Call us anytime</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img src="Image/easy payment.png" alt="">
+        <div class="content">
+            <h3>Easy payment</h3>
+            <span>Cash or Credit</span>
+        </div>
+    </div>
+
+</section>
+<!-- review section -->
+
+<section class="review" id="review">
+
+<!-- first client -->
+
+    <div class="box">
+        <div class="user">
+            <img src="Image/aryan mishra.jpg" alt="">
+            <div class="info">
+                <h3>Aryan Mishra</h3>
+                <span>happy customer</span>
+            </div>
+        </div>
+        <p>"I"m so impressed with the quality and taste of their treats! The vegan blueberry cake was a perfect balance of sweet and fresh.Highly recommend Divine Desserts for anyone who loves indulgent yet wholesome desserts!"</p>
+    </div>
+
+<!-- second client -->
+
+    <div class="box">
+        <div class="user">
+            <img src="Image/ashwani kumar .jpg" alt="">
+            <div class="info">
+                <h3>Ashwani Kr.</h3>
+                <span>happy customer</span>
+            </div>
+        </div>
+        <p>"Divine Desserts never disappoints! Their cakes are absolutely heavenly—moist, flavorful, and always beautifully decorated. It’s my go-to for any special occasion!"</p>
+    </div>
+
+<!--third client  -->
+
+    <div class="box">
+        <div class="user">
+            <img src="Image/avinash kumar .jpg" alt="">
+            <div class="info">
+                <h3>Avinash Kr.</h3>
+                <span>happy customer</span>
+            </div>
+        </div>
+        <p>From the moment I took my first bite of the lemon drizzle cake, I was hooked! Every dessert I've tried has been top-notch, and the customer service is always friendly and helpful."</p>
+    </div>
+
+<!-- fourth client -->
+
+    <div class="box">
+        <div class="user">
+            <img src="Image/raja bhaiya.jpg" alt="">
+            <div class="info">
+                <h3>Raja kr.</h3>
+                <span>happy customer</span>
+            </div>
+        </div>
+        <p>“We ordered a birthday cake for my daughter, and it was a hit with the whole family. Moist, delicious, and delivered right on time. The only reason I’m giving 4 stars instead of 5 is because I wish they had more gluten-free options — but otherwise, fantastic experience!”</p>
+    </div>
+
+<!-- fifth client -->
+
+    <div class="box">
+        <div class="user">
+            <img src="Image/mukesh .jpg" alt="">
+            <div class="info">
+                <h3>Mukesh Roy</h3>
+                <span>happy customer</span>
+            </div>
+        </div>
+        <p>“Divine Desserts is my go-to for every event I plan. Their attention to detail is incredible — not only do the desserts taste heavenly, but they also look stunning on display. Guests always ask where the treats are from. Their custom cake designs are flawless and delivery is always on point.”</p>
+    </div>
+
+<!-- sixth client -->
+
+<div class="box">
+        <div class="user">
+            <img src="Image/nandan.jpg" alt="">
+            <div class="info">
+                <h3>Nandan Kr.</h3>
+                <span>happy customer</span>
+            </div>
+        </div>
+        <p>“As someone constantly on the hunt for the best chocolate desserts, Divine Desserts blew me away. Their triple-chocolate mousse is hands-down the best I’ve had. Friendly service, fast delivery, and affordable prices — I’m officially hooked!”</p>
+    </div>
+
+</section>
+
+<!-- blog section -->
+
+<div class="heading">
+    <h1>Our Blogs</h1>
+</div>
+
+<section class="blogs" id="blogs">
+    <h1 class="title"> Our <span>Blogs</span> <a href="#">View All >></all></h1>
+    <div class="box-container">
+
+<!-- first blogs -->
+
+        <div class="box">
+            <div class="img">
+                <img src="Image/blogs 1.jpg" alt="">
+            </div>
+            <div class="content">
+            <div class="icons">
+                <a href="#"><i class="fa-solid fa-calendar"></i>12 May, 2025</a>
+                <a href="#"><i class="fa-solid fa-user"></i> By Administrator </a>
+            </div>
+            <h3>Baking Tips for Fluffy Cupcakes Every Time !</h3>
+            <p>Whether you're a beginner or a pro, these simple tricks will help you bake cupcakes that rise and shine</p>
+            <a href="#" class="btn">Read more...</a>
+        </div>
+    </div>
+    
+
+<!--second blog -->
+
+    <div class="box">
+            <div class="img">
+                <img src="Image/blogs 2.jpg" alt="">
+            </div>
+            <div class="content">
+            <div class="icons">
+                <a href="#"><i class="fa-solid fa-calendar"></i> 12 May, 2025</a>
+                <a href="#"><i class="fa-solid fa-user"></i> By Administrator </a>
+            </div>
+            <h3>How to Make the Perfect Buttercream Frosting ?</h3>
+            <p>A foolproof recipe and decorating tricks straight from our pastry chefs.</p>
+            <a href="#" class="btn">Read more...</a>
+        </div>
+    </div>
+
+<!-- third blogs -->
+
+    <div class="box">
+            <div class="img">
+                <img src="Image/blogs 3.jpg" alt="">
+            </div>
+            <div class="content">
+            <div class="icons">
+                <a href="#"><i class="fa-solid fa-calendar"></i> 12 May, 2025</a>
+                <a href="#"><i class="fa-solid fa-user"></i> By Administrator </a>
+            </div>
+            <h3>Cupcake Wars: What Happened at Our First Bake-Off !</h3>
+            <p>Highlights from our friendly baking competition and the winning recipe!</p>
+            <a href="#" class="btn">Read more...</a>
+        </div>
+    </div>
+
+<!-- forth blogs -->
+    
+    <div class="box">
+            <div class="img">
+                <img src="Image/blog 4.jpg" alt="">
+            </div>
+            <div class="content">
+            <div class="icons">
+                <a href="#"><i class="fa-solid fa-calendar"></i> 12 May, 2025</a>
+                <a href="#"><i class="fa-solid fa-user"></i> By Administrator </a>
+            </div>
+            <h3>A Day in the Life at Divine Desserts.</h3>
+            <p>Take a tour through a typical (and very delicious) day inside our bakery kitchen.</p>
+            <a href="#" class="btn">Read more...</a>
+        </div>
+    </div>
+
+<!-- fifth blog -->
+
+    <div class="box">
+            <div class="img">
+                <img src="Image/blogs 5.jpg" alt="">
+            </div>
+            <div class="content">
+            <div class="icons">
+                <a href="#"><i class="fa-solid fa-calendar"></i> 12 May, 2025</a>
+                <a href="#"><i class="fa-solid fa-user"></i> By Administrator </a>
+            </div>
+            <h3>The Science of Baking: Why Precise Measurements Matter</h3>
+            <p>Break down the chemistry behind baking magic—how flour, fat, and leavening agents work.</p>
+            <a href="#" class="btn">Read more...</a>
+        </div>
+    </div>
+
+<!-- sixth blogs -->
+
+    <div class="box">
+            <div class="img">
+                <img src="Image/blogs 6.jpg" alt="">
+            </div>
+            <div class="content">
+            <div class="icons">
+                <a href="#"><i class="fa-solid fa-calendar"></i> 12 May, 2025</a>
+                <a href="#"><i class="fa-solid fa-user"></i> By Administrator </a>
+            </div>
+            <h3>Valentine’s Day Treats You Can Make in Under 30 Minutes</h3>
+            <p>Quick recipes for heart-shaped cookies, chocolate-dipped strawberries, and more.</p>
+            <a href="#" class="btn">Read more...</a>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<!-- contact section -->
+
+<div class="heading">
+    <h1>Contact us</h1>
+</div>
+
+<section class="contact" id="contact">
+    <div class="icons-container">
+
+    <div class="icons">
+            <i class="fa-solid fa-phone"></i>
+            <h3>Our number</h3>
+            <p>+234-678-7878</p>
+            <p>+786-908-6780</p>
+        </div>
+
+        <div class="icons">
+            <i class="fa-solid fa-envelope"></i>
+            <h3>Our email</h3>
+            <p>divinedesserts@gmail.com</p>
+            <p>divine@gmail.com</p>
+        </div>
+
+        <div class="icons">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3>Our address</h3>
+            <p>Saguna more, patna - 801503</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputbox">
+            <input type="text" placeholder="Enter your name" class="box">
+            <input type="text" placeholder="Enter your email" class="box">
+            </div>
+
+            <div class="inputbox">
+            <input type="Number" placeholder="Enter your number" class="box">
+            <input type="text" placeholder="Enter your subject" class="box">
+            </div>
+            <textarea placeholder=" Your message" cols="30" rows="10"></textarea>
+            <input type="Submit" value="Send message" class="btn">
+        </form>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7194.964404942933!2d85.03966873117992!3d25.622116933991414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5660e7785fdd%3A0x68b4876971751121!2sSaguna%20More%2C%20Balaji%20Nagar%2C%20New%20Tarachak%2C%20Danapur%20Nizamat%2C%20Patna%2C%20Danapur%2C%20Bihar%20801503!5e0!3m2!1sen!2sin!4v1747009629254!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+
+    </div>
+</section>
+
+<div class="space"></div>
+
+<!-- footer section -->
+
+<section class="footer">
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Quick links</h3>
+        <a href="#home"> <i class="fa-solid fa-arrow-right"></i> Home</a>
+        <a href="#products"><i class="fa-solid fa-arrow-right"></i>Shop</a>
+        <a href="#about"><i class="fa-solid fa-arrow-right"></i>About</a>
+        <a href="#review"><i class="fa-solid fa-arrow-right"></i>Review</a>
+        <a href="#blogs"><i class="fa-solid fa-arrow-right"></i>Blog</a>
+        <a href="#contact"><i class="fa-solid fa-arrow-right"></i>Contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"><i class="fa-solid fa-arrow-right"></i>my order</a>
+            <a href="#"><i class="fa-solid fa-arrow-right"></i>my favourite</a>
+            <a href="#"><i class="fa-solid fa-arrow-right"></i>my wishlist</a>
+            <a href="#"><i class="fa-solid fa-arrow-right"></i>my account</a>
+            <a href="#"><i class="fa-solid fa-arrow-right"></i>terms or use</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
+            <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+            <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+            <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscibe for latest update</p>
+            <form action="">
+            <input type="email" placeholder="enter your email">
+            <input type="submit" value="subsribe" class="btn">
+            </form>
+            <img src="Image/payment.png" class="payments" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="credit">created by @Ashu || All rights reserved</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link -->
+ <script src="divine.js"></script>
+</body>
+</html>
